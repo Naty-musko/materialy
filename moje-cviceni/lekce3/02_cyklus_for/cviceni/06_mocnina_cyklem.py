@@ -1,0 +1,11 @@
+# Cvičení 6 – Cyklus for
+# Doplň kód pod zadání a soubor spusť (Run).
+
+# Vypočítej 2 na desátou tak, že v cyklu desetkrát vynásobíš dvěma.
+#    Výsledek vypiš (má vyjít 1024).
+vysledek = 1
+for i in range(10):
+    vysledek *= 2
+print(vysledek)
+
+

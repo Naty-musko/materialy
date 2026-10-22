@@ -3,5 +3,7 @@
 
 # Máš číslo 2.71828. Zaokrouhli ho na celé číslo a vypiš.
 #    Pak ho zaokrouhli na jedno desetinné místo a taky vypiš.
+print(round(2.71828))
+print(round(2.71828, 1))    
 
 
