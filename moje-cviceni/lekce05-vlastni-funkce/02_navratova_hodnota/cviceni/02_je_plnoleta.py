@@ -1,0 +1,24 @@
+# Cvičení 2 – Návratová hodnota
+# Doplň kód pod zadání a soubor spusť (Run).
+
+# Napiš funkci je_plnoleta(vek), která vrátí True, nebo False.
+#    Zeptej se uživatele na věk a podle výsledku vypiš
+#    "Můžeš dál." nebo "Ještě ne.".
+def je_plnoleta(vek):
+    if vek >= 18:
+        return True
+    print("Zadej svůj věk:")
+vek = int(input("Kolik ti je let? "))
+if je_plnoleta(vek):
+    print("Můžeš dál.") 
+else:
+    print("Ještě ne.")
+
+
+
+def je_plnoleta(vek):
+    return vek >= 18
+if je_plnoleta(int(input("Zadej svůj věk.: "))):
+    print("Můžeš dál..")
+else:
+    print("Ještě ne..")
